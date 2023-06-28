@@ -1,3 +1,3 @@
-module "ChildResources" {
+module "ModuleEnfant" {
   source = "../Cluster"
 }
