@@ -1,9 +1,9 @@
 output "Cle_publique" {
-  value     = module.ChildResources.pub
+  value     = module.EnfantModule.pub
   sensitive = true
 }
 
 output "Cle_privee" {
-    value   = module.ChildResources.private
+    value   = module.EnfantModule.private
     sensitive = true
 }
