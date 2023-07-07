@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "Kubernetes" {
-   name = "Hocine-Kubernetes-RG"
+   name = "ahmedkubernets-RG"
    location = var.location
 }
 
